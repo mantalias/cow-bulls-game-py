@@ -79,7 +79,7 @@ while True:
         
         if score[0] == 4:
             print(f"You won!!!\nYou won by guessing {log} times")
-            log = 0
+
             break
         else:
             print(f"Wrong! Cows:{score[0]}, Bulls:{score[1]}")
